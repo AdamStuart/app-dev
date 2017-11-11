@@ -7,7 +7,7 @@ You've entered a <highlight>module</highlight>. Notice how the navigation includ
 	You write apps for a variety of reasons.  
 	<ul>
 	<li> It's a Google Summer of Code, or CS Class Assignment  </li>
-	<li> You need to import niche formats for network analysis </li>
+	<li> You need to import niche file or data formats for network analysis </li>
 	<li> You have data with a higher dimensionality that requires custom processing </li>
 	<li> You want to optimize access to a particular database</li>
 	</ul>
@@ -17,11 +17,29 @@ You need a variety of tools and techniques to write an app:
 	<li> Assuming Eclipse Environment for Compiling</li>
 	<li> Git seems to work best from the command line </li>
 	<li> Mvn installation and introduction</li>
-	<li> The Development Cycle for Cytoscape apps: Build / install / run </li>
+	</ul>
+
+<h2>Establish your starting point</h2>
+	<ul>
+	<li> Add a menu item or button to launch a URL:  sample1</li>
+	<li> Implement a simple layout algorithm:  polyPath</li>
+	<li> Implement a complex layout algorithm:  EntOptLayout</li>
+	<li> Import an XML file:  Wikipathways </li>
+	<li> Support Network Search Bar and add a results dialog:  StringApp </li>
+	<li> Change Menu Bar Configuration </li>
+	<li>  </li>
+	<li> </li>
+	</ul>
+	
+	
+<h2>The Development Cycle for Cytoscape apps</h2>
+	<li> CyActivator registers the commands you are adding </li>
+	<li> EBIRR:  Edit / Build / Install / Run / Repeat </li>
+	<li> Tasks are the unit of work.  Each has a 'factory' that attaches to menu items and buttons.</li>
 	<li> How to access the data model</li>
 	</ul>
-<h2>Establish your starting point</h2>
-	
+
+
 </section>
 <section id='Caveats'>
 <h4>Caveats and warnings</h4>
